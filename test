@@ -1,0 +1,6 @@
+Write-Host 'no of arguments was :' ($arg.length)
+write-output 'and they were:'
+foreach ($arg in $args)
+{
+    Write-Output $arg
+}
